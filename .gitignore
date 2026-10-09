@@ -1,0 +1,19 @@
+@'
+# Raw and generated data
+data/
+output/
+*.csv
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Secrets
+.env
+*.pem
+
+# Logs
+logs/
+'@ | Set-Content .gitignore
